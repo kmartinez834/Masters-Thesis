@@ -37,14 +37,6 @@ def preprocess_data(df):
     return df_out
 
 
-'''
-# Upload a single patients data 
-sample = pd.read_csv("MDClone_unknown1.csv")
-sample = sample.drop(["response"], axis=1)
-#Make a prediction with model 
-prediction = model.predict(sample)
-print(f"Prediction based on EHR: {prediction}")'''
-
 ###############################
 
 def main():
